@@ -1,6 +1,11 @@
 const express=require('express');
 const app=express()
 const router=require('./routes.js')
+const db=require('./db.js')
+
+const dotenv = require("dotenv");
+dotenv.config();
+
 
 app.use(router)
 
