@@ -3,9 +3,7 @@
 ```
 npm init
 
-npm install express
-npm install mongoose
-npm install dotenv
+npm i express dotenv mongoose
 
 nodemon index.js
 ```
